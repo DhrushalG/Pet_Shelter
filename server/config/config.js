@@ -1,7 +1,7 @@
 const mongoose = require('mongoose'); // import mongoose
 const db_name = 'DBNAME';
 
-mongoose.connect(`mongodb+srv://root:root@ninjas.f0zyq.mongodb.net/${db_name}?retryWrites=true&w=majority`, {
+mongoose.connect(``, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
